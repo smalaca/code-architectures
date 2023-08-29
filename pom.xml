@@ -16,7 +16,6 @@
         <module>clean-architecture</module>
         <module>clean-architecture-bounded-contexts</module>
         <module>clean-architecture-cqrs</module>
-        <module>component-based-architecture</module>
     </modules>
 
     <properties>
