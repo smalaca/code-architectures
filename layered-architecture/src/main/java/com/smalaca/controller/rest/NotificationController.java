@@ -1,9 +1,9 @@
 package com.smalaca.controller.rest;
 
-import com.smalaca.business.client.MailClient;
-import com.smalaca.business.gateway.SmsGateway;
-import com.smalaca.business.message.MailMessage;
-import com.smalaca.business.message.TextMessage;
+import com.smalaca.output.client.MailClient;
+import com.smalaca.output.gateway.SmsGateway;
+import com.smalaca.output.message.MailMessage;
+import com.smalaca.output.message.TextMessage;
 import com.smalaca.controller.dto.MailDto;
 import com.smalaca.controller.dto.TextMessageDto;
 

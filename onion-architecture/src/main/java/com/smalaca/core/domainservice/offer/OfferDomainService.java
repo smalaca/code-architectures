@@ -1,18 +1,15 @@
-package com.smalaca.business.processor;
+package com.smalaca.core.domainservice.offer;
 
-import com.smalaca.output.event.OfferAcceptedEvent;
-import com.smalaca.business.exception.OfferException;
-import com.smalaca.output.publisher.EventPublisher;
-import com.smalaca.persistence.entity.Offer;
-import com.smalaca.persistence.repository.OfferRepository;
+import com.smalaca.core.domain.offer.Offer;
+import com.smalaca.core.domain.offer.OfferAcceptedEvent;
 
 import java.util.UUID;
 
-public class OfferProcessor {
+public class OfferDomainService {
     private final OfferRepository offerRepository;
     private final EventPublisher eventPublisher;
 
-    public OfferProcessor(OfferRepository offerRepository, EventPublisher eventPublisher) {
+    public OfferDomainService(OfferRepository offerRepository, EventPublisher eventPublisher) {
         this.offerRepository = offerRepository;
         this.eventPublisher = eventPublisher;
     }
